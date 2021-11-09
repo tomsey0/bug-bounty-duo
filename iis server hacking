@@ -1,0 +1,92 @@
+Hacking IIS Servers  (IIS stands for Internet Information Service)
+
+ Finding hidden files and folders on IIS servers
+ 
+ Microsoft ASP.NET fingetprinting
+ 
+   1)Things you should look for:-
+   
+       1)cookies:-
+          -> ASP.NET_SessionId
+          -> ASPSESSION
+       
+       2)Header Regex:-
+          -> X-AspNet-Version(.+)\\;version:\\1
+          -> XPowered-By:^ASP\\.NET
+          
+       3)HTML Regex:-
+           <input[^>]+name=\"__VIEWSTATE
+           
+       4)URL Regex:-
+           \\.aspx?(?:$|\\?)
+       
+  2)Extentions you should look for:-
+ 
+   .asp    (legacy active server pages)
+   .aspx   (Modern active server pages)
+   .ashx   (APIs\AJAX)
+   .wsdl   (web service description language)
+   .wadl   (web application description language)
+   .asmx   (XML web services)
+   .xml    (extensible markup language)
+   .zip    (archive zip)
+   .txt    (text file)
+   .axd    (used in handling embedded)
+   .ascx   (web user control file)
+   .backup (backup files)
+   .config
+   .php
+ 
+ 3)Finding API Documentation
+   
+   1)look for .ASMX files  (we <3 .ASMX files)
+   2)look for .ASHX files
+   3)look for APIs
+   4)look for api Documentation
+   
+   
+ 4)What can you do by hacking IIS servers:-
+ 
+   -> Case sensetive, amazing for content discovery
+   -> Bruteforce IIS shortnames
+   -> VIEWSTATE deserilization RCE gadget
+   -> web.config upload tricks
+   -> Debug mode w/ detailed stack traces and full paths
+   -> Debugging Scripts often deployed (ELMAN,Trace)
+   -> Talerik RCE
+   -> Complex XXE vectors
+   
+   
+5)Logical fuzzing of Files and Folders
+
+   -> After fuzzing shortname enumeration on your target,you may endup with:-
+                            ASPNET?
+                            LIDSDI?
+                            LIDSSE?
+                            LIDSTE?
+                            EASYFI?
+      As we can see we get couple of folder that has been detected,but not the full foldername that has been detected,but not the full foldername that has been
+      detected,just a partial foldername as IIS-Shortname-Scanner does.
+      
+      Now What???
+       ->Try to findout most logical cutoff name 
+             for example:- For ffuf, you would put the following fuzzing pattern:-
+                                        LIDSDI____   ---> LIDSFUZZ
+                                        LIDSSE____   ---> LIDSFUZZ
+                                        EASYFI____   ---> EASYFUZZ
+                         => ./fuff -w wordlist.txt -D -e asp,aspx,ashx,asmx -t 1000 -c -u http://redircted/lidsFUZZ
+       
+       -> You will get awesome results...
+       
+       *** Try to create custom wordlists
+           ./crunch 0 3 abcdefghijklmnopqrstuvwxyz0123456789 -o customwordlist.txt
+           
+       ***Look for common files
+      
+      Means,
+      Using IIS-Shortname-scanner, get you 50% of the way there,by giving you the shortname of files and folders.
+      
+      How can you find out the rest of the foldername:-
+      
+      i) Bruteforce the rest of the file and foldername,purely using existing wordlist or generating wordlist of charactors (0-5 chars,a-2,0-9 etc).
+      ii)Bruteforce the rest of the file or foldername,by using regexes on the github dataset from Big Query.                              
