@@ -1,0 +1,212 @@
+# Nmap 7.92 scan initiated Tue Nov  9 14:57:12 2021 as: nmap -iL dellemc.com/recon/httprobe/alive.txt -T4 -oA dellemc.com/recon/scans/scanned.txt
+Failed to resolve "c.dellemc.com".
+Nmap scan report for blog.dellemc.com (147.75.0.72)
+Host is up (0.0017s latency).
+rDNS record for 147.75.0.72: blog.dell.com
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for blogdev.dellemc.com (147.75.0.114)
+Host is up (0.0021s latency).
+rDNS record for 147.75.0.114: blogdev.dell.com
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for cloudiq.dellemc.com (128.221.237.234)
+Host is up (0.0018s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for cloudiqint.dellemc.com (143.166.199.52)
+Host is up (0.0019s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for cpsdocs.dellemc.com (128.221.237.165)
+Host is up (0.0020s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for dash.dellemc.com (184.25.12.139)
+Host is up (0.00049s latency).
+Other addresses for dash.dellemc.com (not scanned): 2600:140f:ec00:183::1f0f 2600:140f:ec00:188::1f0f
+rDNS record for 184.25.12.139: a184-25-12-139.deploy.static.akamaitechnologies.com
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for developer.dellemc.com (143.166.30.167)
+Host is up (0.00046s latency).
+rDNS record for 143.166.30.167: dellfinancialservices.ca
+All 1000 scanned ports on developer.dellemc.com (143.166.30.167) are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+Nmap scan report for dojoblog.dellemc.com (107.180.0.234)
+Host is up (0.012s latency).
+rDNS record for 107.180.0.234: ip-107-180-0-234.ip.secureserver.net
+Not shown: 995 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+21/tcp  open  ftp
+25/tcp  open  smtp
+443/tcp open  https
+993/tcp open  imaps
+995/tcp open  pop3s
+
+Nmap scan report for education.dellemc.com (168.159.208.88)
+Host is up (0.0019s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for educationdev.dellemc.com (128.221.213.27)
+Host is up (0.0044s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+443/tcp  open   https
+8080/tcp closed http-proxy
+
+Nmap scan report for educationstg.dellemc.com (143.166.28.58)
+Host is up (0.00077s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for exploreclient.dellemc.com (52.60.160.16)
+Host is up (0.0017s latency).
+Other addresses for exploreclient.dellemc.com (not scanned): 3.98.63.202 52.60.165.183
+rDNS record for 52.60.160.16: ec2-52-60-160-16.ca-central-1.compute.amazonaws.com
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for marketplace.dellemc.com (3.217.204.168)
+Host is up (0.0019s latency).
+Other addresses for marketplace.dellemc.com (not scanned): 52.4.186.113 54.173.188.105
+rDNS record for 3.217.204.168: ec2-3-217-204-168.compute-1.amazonaws.com
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for mdf.partnerbenefits.dellemc.com (198.233.124.186)
+Host is up (0.0020s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for partnerbenefitsdashboard.dellemc.com (198.233.124.192)
+Host is up (0.0020s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for partnerbenefits.dellemc.com (198.233.124.185)
+Host is up (0.0020s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for partner.dellemc.com (168.159.208.55)
+Host is up (0.0022s latency).
+rDNS record for 168.159.208.55: rsapartnercentral.com
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for powercalculator.dellemc.com (128.221.213.46)
+Host is up (0.0020s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for powercalculatortest.dellemc.com (128.221.213.44)
+Host is up (0.0019s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for roitools.dellemc.com (72.3.231.132)
+Host is up (0.0025s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for shop.dellemc.com (184.25.5.41)
+Host is up (0.0054s latency).
+rDNS record for 184.25.5.41: a184-25-5-41.deploy.static.akamaitechnologies.com
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for spwac.dellemc.com (128.221.237.198)
+Host is up (0.0020s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for stage.dellemc.com (128.221.237.173)
+Host is up (0.0020s latency).
+Other addresses for stage.dellemc.com (not scanned): 168.159.208.55 128.221.237.174
+rDNS record for 128.221.237.173: rsaconferenceexchange.com
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for vxrailch-test.dellemc.com (128.221.237.228)
+Host is up (0.0017s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for www.blog.dellemc.com (172.67.204.25)
+Host is up (0.058s latency).
+Other addresses for www.blog.dellemc.com (not scanned): 104.21.52.212
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for www.dellemc.com (184.27.51.38)
+Host is up (0.00060s latency).
+Other addresses for www.dellemc.com (not scanned): 2600:140f:ec00:1a6::2a27 2600:140f:ec00:19b::2a27
+rDNS record for 184.27.51.38: a184-27-51-38.deploy.static.akamaitechnologies.com
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for cloudiqstg.dellemc.com (143.166.199.52)
+Host is up (0.014s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for infocus.dellemc.com (147.75.0.72)
+Host is up (0.016s latency).
+rDNS record for 147.75.0.72: blog.dell.com
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for vxrailch.dellemc.com (128.221.237.234)
+Host is up (0.0086s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for vxrailconfiguration-test.dellemc.com (128.221.213.44)
+Host is up (0.00058s latency).
+All 1000 scanned ports on vxrailconfiguration-test.dellemc.com (128.221.213.44) are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+Nmap scan report for vxrailconfiguration.dellemc.com (128.221.237.234)
+Host is up (0.00056s latency).
+All 1000 scanned ports on vxrailconfiguration.dellemc.com (128.221.237.234) are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+# Nmap done at Tue Nov  9 15:00:02 2021 -- 31 IP addresses (31 hosts up) scanned in 169.82 seconds

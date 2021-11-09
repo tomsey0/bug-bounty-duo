@@ -1,0 +1,64 @@
+# Nmap 7.92 scan initiated Tue Nov  9 14:57:12 2021 as: nmap -iL dellemc.com/recon/httprobe/alive.txt -T4 -oA dellemc.com/recon/scans/scanned.txt
+Host: 147.75.0.72 (blog.dell.com)	Status: Up
+Host: 147.75.0.72 (blog.dell.com)	Ports: 443/open/tcp//https///	Ignored State: filtered (999)
+Host: 147.75.0.114 (blogdev.dell.com)	Status: Up
+Host: 147.75.0.114 (blogdev.dell.com)	Ports: 443/open/tcp//https///	Ignored State: filtered (999)
+Host: 128.221.237.234 ()	Status: Up
+Host: 128.221.237.234 ()	Ports: 443/open/tcp//https///	Ignored State: filtered (999)
+Host: 143.166.199.52 ()	Status: Up
+Host: 143.166.199.52 ()	Ports: 443/open/tcp//https///	Ignored State: filtered (999)
+Host: 128.221.237.165 ()	Status: Up
+Host: 128.221.237.165 ()	Ports: 443/open/tcp//https///	Ignored State: filtered (999)
+Host: 184.25.12.139 (a184-25-12-139.deploy.static.akamaitechnologies.com)	Status: Up
+Host: 184.25.12.139 (a184-25-12-139.deploy.static.akamaitechnologies.com)	Ports: 443/open/tcp//https///	Ignored State: filtered (999)
+Host: 143.166.30.167 (dellfinancialservices.ca)	Status: Up
+Host: 143.166.30.167 (dellfinancialservices.ca)	Ports: 	Ignored State: filtered (1000)
+Host: 107.180.0.234 (ip-107-180-0-234.ip.secureserver.net)	Status: Up
+Host: 107.180.0.234 (ip-107-180-0-234.ip.secureserver.net)	Ports: 21/open/tcp//ftp///, 25/open/tcp//smtp///, 443/open/tcp//https///, 993/open/tcp//imaps///, 995/open/tcp//pop3s///	Ignored State: filtered (995)
+Host: 168.159.208.88 ()	Status: Up
+Host: 168.159.208.88 ()	Ports: 443/open/tcp//https///	Ignored State: filtered (999)
+Host: 128.221.213.27 ()	Status: Up
+Host: 128.221.213.27 ()	Ports: 443/open/tcp//https///, 8080/closed/tcp//http-proxy///	Ignored State: filtered (998)
+Host: 143.166.28.58 ()	Status: Up
+Host: 143.166.28.58 ()	Ports: 443/open/tcp//https///	Ignored State: filtered (999)
+Host: 52.60.160.16 (ec2-52-60-160-16.ca-central-1.compute.amazonaws.com)	Status: Up
+Host: 52.60.160.16 (ec2-52-60-160-16.ca-central-1.compute.amazonaws.com)	Ports: 443/open/tcp//https///	Ignored State: filtered (999)
+Host: 3.217.204.168 (ec2-3-217-204-168.compute-1.amazonaws.com)	Status: Up
+Host: 3.217.204.168 (ec2-3-217-204-168.compute-1.amazonaws.com)	Ports: 443/open/tcp//https///	Ignored State: filtered (999)
+Host: 198.233.124.186 ()	Status: Up
+Host: 198.233.124.186 ()	Ports: 443/open/tcp//https///	Ignored State: filtered (999)
+Host: 198.233.124.192 ()	Status: Up
+Host: 198.233.124.192 ()	Ports: 443/open/tcp//https///	Ignored State: filtered (999)
+Host: 198.233.124.185 ()	Status: Up
+Host: 198.233.124.185 ()	Ports: 443/open/tcp//https///	Ignored State: filtered (999)
+Host: 168.159.208.55 (rsapartnercentral.com)	Status: Up
+Host: 168.159.208.55 (rsapartnercentral.com)	Ports: 443/open/tcp//https///	Ignored State: filtered (999)
+Host: 128.221.213.46 ()	Status: Up
+Host: 128.221.213.46 ()	Ports: 443/open/tcp//https///	Ignored State: filtered (999)
+Host: 128.221.213.44 ()	Status: Up
+Host: 128.221.213.44 ()	Ports: 443/open/tcp//https///	Ignored State: filtered (999)
+Host: 72.3.231.132 ()	Status: Up
+Host: 72.3.231.132 ()	Ports: 443/open/tcp//https///	Ignored State: filtered (999)
+Host: 184.25.5.41 (a184-25-5-41.deploy.static.akamaitechnologies.com)	Status: Up
+Host: 184.25.5.41 (a184-25-5-41.deploy.static.akamaitechnologies.com)	Ports: 80/open/tcp//http///, 443/open/tcp//https///	Ignored State: filtered (998)
+Host: 128.221.237.198 ()	Status: Up
+Host: 128.221.237.198 ()	Ports: 443/open/tcp//https///	Ignored State: filtered (999)
+Host: 128.221.237.173 (rsaconferenceexchange.com)	Status: Up
+Host: 128.221.237.173 (rsaconferenceexchange.com)	Ports: 443/open/tcp//https///	Ignored State: filtered (999)
+Host: 128.221.237.228 ()	Status: Up
+Host: 128.221.237.228 ()	Ports: 443/open/tcp//https///	Ignored State: filtered (999)
+Host: 172.67.204.25 ()	Status: Up
+Host: 172.67.204.25 ()	Ports: 443/open/tcp//https///	Ignored State: filtered (999)
+Host: 184.27.51.38 (a184-27-51-38.deploy.static.akamaitechnologies.com)	Status: Up
+Host: 184.27.51.38 (a184-27-51-38.deploy.static.akamaitechnologies.com)	Ports: 443/open/tcp//https///	Ignored State: filtered (999)
+Host: 143.166.199.52 ()	Status: Up
+Host: 143.166.199.52 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///	Ignored State: filtered (998)
+Host: 147.75.0.72 (blog.dell.com)	Status: Up
+Host: 147.75.0.72 (blog.dell.com)	Ports: 80/open/tcp//http///, 443/open/tcp//https///	Ignored State: filtered (998)
+Host: 128.221.237.234 ()	Status: Up
+Host: 128.221.237.234 ()	Ports: 443/open/tcp//https///	Ignored State: filtered (999)
+Host: 128.221.213.44 ()	Status: Up
+Host: 128.221.213.44 ()	Ports: 	Ignored State: filtered (1000)
+Host: 128.221.237.234 ()	Status: Up
+Host: 128.221.237.234 ()	Ports: 	Ignored State: filtered (1000)
+# Nmap done at Tue Nov  9 15:00:02 2021 -- 31 IP addresses (31 hosts up) scanned in 169.82 seconds
