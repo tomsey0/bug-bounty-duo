@@ -65,8 +65,8 @@ Hacking IIS Servers  (IIS stands for Internet Information Service)
                             LIDSSE?
                             LIDSTE?
                             EASYFI?
-      As we can see we get couple of folder that has been detected,but not the full foldername that has been detected,but not the full foldername that has been
-      detected,just a partial foldername as IIS-Shortname-Scanner does.
+      As we can see we get couple of folder that has been detected,but not the full foldername that has been detected,
+      just a partial foldername as IIS-Shortname-Scanner does.
       
       Now What???
        ->Try to findout most logical cutoff name 
